@@ -83,13 +83,39 @@
          supported-color-schemes: light dark;
       }
       @media (prefers-color-scheme: dark) {
-         body, center, table, .darkmode-bg {
-            /* background: #2d2d2d!important; */
-            /* color: #ffffff!important; */
+     /*  
+
+         body, center, table {
+          background: #2d2d2d!important;
          }
+
+         h1, h2, p, a {
+           color: #FFFFFF !important;
+         }
+         .container {
+           background: #413D3A!important;
+         }
+
+         .pickup, .location, .driver, .driver td{
+           background: #333333 !important;
+         }
+
+         .order {
+           background-color: #2d2d2d!important;
+         }
+         .drk-mode {
+          background: #333333 !important;
+          color: #FFFFFF !important;
+         }
+
+         .footer {
+            background: #413D3A!important;
+         }
+
          .darkmode-transparent {
             background-color: transparent!important;
          }
+         */
       }
    </style>
    
@@ -228,7 +254,7 @@
                       </tr>
                       <!-- bottom part -->
                       <tr>
-                        <td style="background-color: #FFFFFF; text-align: left; padding: 20px 20px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+                        <td class="drk-mode" style="background-color: #FFFFFF; text-align: left; padding: 20px 20px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
                         
                           <p style="margin: 0; font-weight: 900; font-size: 14px;">When you get to Chipotle, you don't need to wait in line, just go straight to the register or pickup window with your ID so we know who you are.</p>
                         </td>
